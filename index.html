@@ -56,7 +56,11 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container"><div id="cart" style="margin-top: 20px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; background: #f9f9f9;">
+    <h3>Корзина:</h3>
+    <p>Поки що порожньо</p>
+</div>
+
         <h1>Магазин</h1>
 
         <div class="product">
@@ -74,7 +78,9 @@
                 <h2>Товар 2</h2>
                 <p>Опис товару</p>
             </div>
-            <button class="buy-button">Купити</button>
+            <button class="buy-button" onclick="addToCart('Товар 1')">Купити</button>
+            <button class="buy-button" onclick="addToCart('Товар 2')">Купити</button>
+
         </div>
 
     </div>
